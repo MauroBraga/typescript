@@ -4,6 +4,6 @@ const app = express();
 
 app.get("/", (req, resp) =>{
     return response.json({message: "Hello World"});
-})
+});
 
 app.listen(3333);
